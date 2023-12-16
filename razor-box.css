@@ -19,4 +19,7 @@
     box-shadow: 0px 2px 24px rgb(0 0 0 / 40%);
     transition: all 200ms ease-in-out;
 }
-  
+
+.newFeatureCard {
+    box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
+}
