@@ -567,23 +567,24 @@
 
         </section>
 
-        <section class="relative bg-[url('./Images/feature-section-2BG.svg')] mt-24">
+        <!-- Feature-2 section -->
+        <section class="relative bg-[url('./Images/feature-section-2BG.svg')] mt-20 bg-no-repeat">
             
             <img src="./Images/x-flame-1.png"
             loading="lazy"
-            class="absolute h-[200px] top-60">
+            class="absolute h-[200px] z-10 top-60">
 
-            <div class="relative max-w-[1080px] w-10/12 min-h-[500px] pt-60 mx-auto">
+            <div class="relative max-w-[1080px] w-10/12 min-h-[500px] pt-48 mx-auto z-50">
 
                 <!-- Heading -->
                 <h2 class="font-mullish text-white text-2xl text-center font-bold">
-                    Explore Razorpay Business Banking
+                    Explore RazorpayX powered Business Banking
                 </h2>
 
                 <div class="w-6 h-1 bg-greenLight mx-auto mt-3"></div>
 
-                <div class="bg-[#181C2E] rounded-md border mx-auto border-slate-500 
-                right-4 mt-[72px] w-full relative flex flex-row">
+                <!-- Feature-2 description box -->
+                <div class="rounded-md border mx-auto border-gray2 mt-[72px] w-full relative flex flex-row">
 
                     <!-- Left part -->
                     <div class="py-10 px-8 flex flex-col gap-7">
@@ -601,7 +602,7 @@
                                     stroke-linejoin="round" class="feather feather-check text-greenLight">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                <div class="font-mullish text-grayText">Open a fully digital current account</div>
+                                <div class="font-mullish text-white">Open a fully digital current account</div>
                             </li>
 
                             <li class="flex gap-2 items-center">
@@ -611,7 +612,7 @@
                                     stroke-linejoin="round" class="feather feather-check text-greenLight">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                <div class="font-mullish text-grayText">Automate payables & compliment payments</div>
+                                <div class="font-mullish text-white">Automate payables & compliment payments</div>
                             </li>
 
                             <li class="flex gap-2 items-center">
@@ -621,7 +622,7 @@
                                     stroke-linejoin="round" class="feather feather-check text-greenLight">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                <div class="font-mullish text-grayText">Simplify and track spends with Corporate cards</div>
+                                <div class="font-mullish text-white">Simplify and track spends with Corporate cards</div>
                             </li>
 
                             <li class="flex gap-2 items-center">
@@ -631,15 +632,15 @@
                                     stroke-linejoin="round" class="feather feather-check text-greenLight">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                <div class="font-mullish text-grayText">View financial insights at a glance</div>
+                                <div class="font-mullish text-white">View financial insights at a glance</div>
                             </li>
                         </ul>
 
-                        <div class="flex">
+                        <div class="flex gap-4">
                             <button class="bg-lightBlue relative hover:bg-lightBlue500 transition-all duration-200 text-white font-semibold py-3 px-5 rounded-md pr-[85px] ">
                                 Sign Up
                                 <div class="h-full scale-y-110 skew-x-[25deg] w-11 absolute bg-greenLight top-0 left-24">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather absolute top-[12px] right-3 scale-90  -skew-x-[25deg] feather-arrow-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather absolute -skew-x-[25deg] mt-3 ml-2 scale-75  feather-arrow-right">
                                         <line x1="5" y1="12" x2="19" y2="12"/>
                                         <polyline points="12 5 19 12 12 19"/>
                                     </svg>
@@ -648,7 +649,17 @@
                                 
                             </button>
                             
-                            
+                            <div class="flex items-center text-lightBlue500 font-mullish group font-bold">
+                                <a href="#" class="transition-all group-hover:text-lightBlue duration-200">
+                                    Know More    
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="feather feather-chevron-right group-hover:text-lightBlue transition-all duration-200">
+                                        <polyline points="9 18 15 12 9 6" />
+                                    </svg>
+                            </div>
                         </div>
                         
                     </div>
@@ -657,6 +668,198 @@
                     <img src="./Images/buisness-banking.png" class="h-[440px] w-[566px]">
                     
                 </div>
+
+                
+                <!-- feature-2 boxes in section -->
+                <div class="relative w-full grid grid-cols-3 gap-8 my-14 ">
+
+                    <!-- feature-2 box-1 -->
+                    <div class="min-h-[15rem] relative font-mullish cursor-pointer featureCard2-box featureCard2 newFeatureCard group">
+
+                        <img src="./Images/wave-purple.svg" alt=""
+                        class="absolute z-20 right-0 bottom-3 opacity-0 group-hover:opacity-100 duration-200 transition-all">
+
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#525a76] h-full w-full absolute z-10 featureCardSVG transition-all duration-200 stroke-opacity-[0]" style="stroke-opacity: 0.8">
+                            <path d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z" fill="#181C2E"></path>
+                          </svg>
+
+                        <img src="./Images/current-account.svg"
+                            class="bg-lightBlue featureCardIcon rounded-full w-12 top-3 right-3 h-12 absolute"
+                            alt="">
+
+                        <div class="relative w-full h-full flex flex-col gap-5 justify-between z-30 pl-5 py-6 pr-8">
+                            
+                            <div>
+                                <h3 class="text-white font-mullish leading-[1.2] text-[1.375rem] font-extrabold">
+                                    Current Account
+                                </h3>
+                               
+                                <p class="text-grayText font-mullish mt-6">Current accounts for fast-growing businesses, supported by the best-in-class technology
+                                </p>
+                            </div>
+                            
+
+                            <div class="flex group text-lightBlue font-bold font-mullish cursor-pointer ">
+                                <a href="#" class="font-mullish  transition-all duration-200">
+                                    Know More
+                                </a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-right transition-all duration-200">
+                                    <polyline points="9 18 15 12 9 6" />
+                                </svg>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- feature-2 box-2 -->
+                    <div class="min-h-[15rem] relative font-mullish cursor-pointer featureCard2-box featureCard2 newFeatureCard group">
+
+                        <img src="./Images/wave-purple.svg" alt=""
+                        class="absolute z-20 right-0 bottom-3 opacity-0 group-hover:opacity-100 duration-200 transition-all">
+
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#525a76] h-full w-full absolute z-10 featureCardSVG transition-all duration-200 stroke-opacity-[0]" style="stroke-opacity: 0.8">
+                            <path d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z" fill="#181C2E"></path>
+                          </svg>
+
+                        <img src="./Images/current-account.svg"
+                            class="bg-lightBlue featureCardIcon rounded-full w-12 top-3 right-3 h-12 absolute"
+                            alt="">
+
+                        <div class="relative w-full h-full flex flex-col gap-5 justify-between z-30 pl-5 py-6 pr-8">
+                            
+                            <div>
+                                <h3 class="text-white font-mullish leading-[1.2] text-[1.375rem] font-extrabold">
+                                    Payouts
+                                </h3>
+                               
+                                <p class="text-grayText font-mullish mt-6">Make simple, reliable & secure payouts to bank accounts, UPI IDs or wallets
+                                </p>
+                            </div>
+                            
+
+                            <div class="flex group text-lightBlue font-bold font-mullish cursor-pointer ">
+                                <a href="#" class="font-mullish  transition-all duration-200">
+                                    Know More
+                                </a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-right transition-all duration-200">
+                                    <polyline points="9 18 15 12 9 6" />
+                                </svg>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- feature-2 box-3 -->
+                    <div class="min-h-[15rem] relative font-mullish cursor-pointer featureCard2-box featureCard2 newFeatureCard group">
+
+                        <img src="./Images/wave-purple.svg" alt=""
+                        class="absolute z-20 right-0 bottom-3 opacity-0 group-hover:opacity-100 duration-200 transition-all">
+
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#525a76] h-full w-full absolute z-10 featureCardSVG transition-all duration-200 stroke-opacity-[0]" style="stroke-opacity: 0.8">
+                            <path d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z" fill="#181C2E"></path>
+                          </svg>
+
+                        <img src="./Images/current-account.svg"
+                            class="bg-lightBlue featureCardIcon rounded-full w-12 top-3 right-3 h-12 absolute"
+                            alt="">
+
+                        <div class="relative w-full h-full flex flex-col gap-5 justify-between z-30 pl-5 py-6 pr-8">
+                            
+                            <div>
+                                <h3 class="text-white font-mullish leading-[1.2] text-[1.375rem] font-extrabold">
+                                    Payroll
+                                </h3>
+                               
+                                <p class="text-grayText font-mullish mt-6">Set your payroll and compliances like TDS, ESIC, PT, & PF on autopilot.
+                                </p>
+                            </div>
+                            
+
+                            <div class="flex group text-lightBlue font-bold font-mullish cursor-pointer ">
+                                <a href="#" class="font-mullish  transition-all duration-200">
+                                    Know More
+                                </a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-right transition-all duration-200">
+                                    <polyline points="9 18 15 12 9 6" />
+                                </svg>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- check demo option -->
+                <div class="relative w-full mx-auto border border-gray2 py-8 p-8 flex items-center justify-between">
+
+                    <div class="mx-auto font-mullish text-white text-xl">Check out the live demo to learn how RazorpayX works. <span class="font-bold">No sign-up required!</span>                        
+                    </div>
+
+                    <button class="bg-lightBlue relative transition-all duration-200 text-white text-base py-3 px-5 rounded-md pr-[85px] font-bold hover:bg-lightBlue500">
+                        Check out the demo
+
+                        <div class="h-full scale-y-110 skew-x-[25deg] w-11 absolute bg-greenLight top-0 right-6">
+                           
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather absolute -skew-x-[25deg] mt-3 ml-2 scale-75  feather-arrow-right">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </div>
+
+
+                    </button>
+                </div>
+
+                <div class="relative w-full mx-auto border opacity-0 border-gray2 py-10 p-8 mt-72">
+
+                    <!-- <div class="font-mullish text-white text-xl">Check out the live demo to learn how RazorpayX works. No sign-up required!</div> -->
+                </div>
+                
             </div>
         </section>
     </div>
